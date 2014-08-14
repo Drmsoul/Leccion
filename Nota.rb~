@@ -12,7 +12,7 @@ class Nota
 		@mejoramiento = 0
 		@promedio = 0
 
-		if (parcial || final || mejoramiento) < Maximanota
+		if (parcial | final | mejoramiento) < Maximanota
 		@parcial = parcial
 		@final = final
 		@mejoramiento = mejoramiento

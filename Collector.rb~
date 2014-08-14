@@ -1,5 +1,4 @@
 require_relative 'Database'
-		require "rubygems"
 		require 'mysql'
 		require 'dbi'
 

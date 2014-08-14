@@ -31,7 +31,7 @@ def initialize()
 
 	end
 
-	def getNotas
+	def getNota
 		query = "Select * from Nota"
 
 		
@@ -71,8 +71,7 @@ end
 u = Nota.new("rafael",11,50,20)
 c = CollectorNotas.new
 
-c.getNotas
-c.setNota(u)
+c.getNota(u)
 
 
 puts u.promedio
